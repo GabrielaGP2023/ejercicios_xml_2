@@ -1,0 +1,6 @@
+<!ELEMENT calendario (evento*)>
+<!ELEMENT evento (titulo, fecha, ubicacion)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT ubicacion (#PCDATA)>
+<!ATTLIST evento tipo (reunión | conferencia | personal) #REQUIRED>

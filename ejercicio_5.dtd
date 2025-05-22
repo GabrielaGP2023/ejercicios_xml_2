@@ -1,0 +1,6 @@
+<!ELEMENT registro (estudiante+)>
+<!ELEMENT estudiante (nombre, edad, carrera)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT carrera (#PCDATA)>
+<!ATTLIST estudiante matricula ID #REQUIRED>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<?xml-model href="ejercicio_4_xsd.xsd"?>
+<calendario>
+  <evento tipo="reunión">
+    <titulo>Reunión con equipo</titulo>
+    <fecha>2025-06-01</fecha>
+    <ubicacion>Sala A</ubicacion>
+  </evento>
+</calendario>

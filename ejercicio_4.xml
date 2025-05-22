@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE calendario SYSTEM "ejercicio_4.dtd">
+<calendario>
+  <evento tipo="reunión">
+    <titulo>Reunión con equipo</titulo>
+    <fecha>2025-06-01</fecha>
+    <ubicacion>Sala A</ubicacion>
+  </evento>
+</calendario>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<?xml-model href="ejercicio_2_xsd.xsd"?>
+<agenda>
+  <contacto tipo="profesional">
+    <nombre>Ana López</nombre>
+    <telefono>123456789</telefono>
+    
+  </contacto>
+  <contacto tipo="profesional">
+    <nombre>Ana López</nombre>
+    <telefono>123456789</telefono>
+    <email>ana@empresa.com</email>
+  </contacto>
+</agenda>

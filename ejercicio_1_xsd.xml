@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="ejercicio_1_xsd.xsd">
+  <libro idioma="es">
+    <titulo>El Quijote</titulo>
+    <autor>Cervantes</autor>
+    <editorial>Alfaguara</editorial>
+    <año>1605</año>
+  </libro>
+  <libro idioma="es">
+    <titulo>El Quijote</titulo>
+    <autor>Cervantes</autor>
+    <editorial>Alfaguara</editorial>
+    <año>1605</año>
+  </libro>
+</biblioteca>

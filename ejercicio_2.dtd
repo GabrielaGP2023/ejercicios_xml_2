@@ -1,0 +1,6 @@
+<!ELEMENT agenda (contacto+)>
+<!ELEMENT contacto (nombre, telefono, email?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST contacto tipo (personal | profesional) "personal">
