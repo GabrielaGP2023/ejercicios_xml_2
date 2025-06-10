@@ -1,0 +1,18 @@
+{
+  "alquiler": {
+    "cliente": {
+      "nombre": "Juan López",
+      "dni": "12345678A",
+      "direccion": "c/ real 12"
+    },
+    "patinete":{
+        "marca": "Mintsubi",
+        "modelo": "a43",
+        "año":2007
+    },
+    "fInicio": "2025-05-10",
+    "hInicio": "12:00:00",
+    "fFin": "2025-05-10",
+    "hFin": "12:00:00"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "universidad": {
+    "departamentos": [
+      {
+        "departamento": "ciencias",
+        "areas": [
+          {
+            "area": "Matemáticas",
+            "profesores": [
+              {
+                "nombre": "Juan López",
+                "num-empleado": 123445
+              },
+              {
+                "nombre": "Ana flores",
+                "num-empleado": 123445
+              }
+            ]
+          },
+           {
+            "area": "Lengua",
+            "profesores": [
+              {
+                "nombre": "Javier Román",
+                "num-empleado": 123445
+              },
+              {
+                "nombre": "Fernando Flores",
+                "num-empleado": 123445
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

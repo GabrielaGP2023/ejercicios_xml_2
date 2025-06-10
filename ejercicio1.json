@@ -1,0 +1,20 @@
+{
+  "biblioteca": {
+    "libros": [
+      {
+        "idioma": "es",
+        "titulo": "El Quijote",
+        "autor": "Cervantes",
+        "editorial": "Alfaguara",
+        "año": 1605
+      },
+      {
+        "idioma": "es",
+        "titulo": "El Quijote",
+        "autor": "Cervantes",
+        "editorial": "Alfaguara",
+        "año": 1605
+      }
+    ]
+  }
+}

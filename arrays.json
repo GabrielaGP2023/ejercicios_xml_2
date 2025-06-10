@@ -1,0 +1,9 @@
+{
+"dias-semana" :[
+    "Lunes", "Martes",  "Miercoles", "Domingo"
+],
+"alumnos":
+[
+    {"nombre":"Juan Lopez"}, {"nombre": "Ana Flores"} , {"nombre":"Ana Flores"}
+]
+}

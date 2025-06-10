@@ -1,0 +1,17 @@
+{
+    "agenda":
+    {
+        "contactos":[
+        {
+            "tipo": "profesional",
+            "nombre": "Ana López",
+            "telefono ": "123456789"
+        },
+        {
+            "tipo": "profesional",
+            "nombre": "Ana López",
+            "telefono ": "123456789"
+        }
+    ]
+    }
+}
