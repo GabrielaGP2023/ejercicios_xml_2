@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="ejercicio_5_xsd.xsd"?>
 <registro>
-  <estudiante matricula="_12345">
+  <estudiante matricula="A12345">
     <nombre>Lucía García</nombre>
     <edad>22</edad>
     <carrera>Ingeniería Informática</carrera>

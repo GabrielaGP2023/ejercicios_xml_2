@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="alquiler">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cliente">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="dni" type="xs:string" />
+                            <xs:element name="direccion" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="patinete">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="marca" type="xs:string" />
+                            <xs:element name="modelo" type="xs:string" />
+                            <xs:element name="año" type="xs:int" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="fInicio" type="xs:date" />
+                <xs:element name="hInicio" type="xs:time" />
+                <xs:element name="fFin" type="xs:date" minOccurs="0"/>
+                <xs:element name="hFin" type="xs:time" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

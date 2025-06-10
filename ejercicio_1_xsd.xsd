@@ -3,7 +3,7 @@
   <xs:element name="biblioteca">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="libro" maxOccurs="unbounded">
+        <xs:element name="libro" maxOccurs="unbounded" minOccurs="1">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="titulo" type="xs:string" />

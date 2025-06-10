@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE evento SYSTEM "repaso_2_dtd.dtd">
+<evento nombre="evento 1 del año">
+    <chef-invitado>
+        <nombre>Ana Flores</nombre>
+        <dni>123456789A</dni>
+        <menu-especial>
+            <entrante>xx</entrante>
+            <plato-1>xxx</plato-1>
+            <plato-2>xxx</plato-2>
+            <postre>xxxx</postre>
+        </menu-especial>
+    </chef-invitado>
+    <restaurante>
+        <nombre>xxx</nombre>
+        <direccion>C/ real 25</direccion>
+    </restaurante>
+    <chef-destacado>
+        <nombre>Ana Flores</nombre>
+        <dni>123456789A</dni>
+    </chef-destacado>
+    <asistentes>30</asistentes>
+</evento>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alquiler xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="repaso_1_xsd.xsd">
+    <cliente>
+        <nombre>Juan López1</nombre>
+        <dni>12345678A</dni>
+        <direccion>C/ real 12</direccion>
+    </cliente>
+    <patinete>
+        <marca>Mintsubi</marca>
+        <modelo>a43</modelo>
+        <año>2007</año>
+    </patinete>
+    <fInicio>2025-05-10</fInicio>
+    <hInicio>12:00:00</hInicio>
+    <fFin>2025-05-10</fFin>
+    <hFin>12:00:00</hFin>
+
+
+    
+</alquiler>

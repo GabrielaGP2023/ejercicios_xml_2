@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="evento">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="chef-invitado">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="dni" type="xs:string" />
+                            <xs:element name="menu-especial">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="entrante" type="xs:string" />
+                                        <xs:element name="plato-1" type="xs:string" />
+                                        <xs:element name="plato-2" type="xs:string" />
+                                        <xs:element name="postre" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="restaurante">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="direccion" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="chef-destacado">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="dni" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="asistentes">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:integer">
+                            <xs:minExclusive value="15" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+            </xs:sequence>
+            <xs:attribute name="nombre" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,6 +1,4 @@
 <?xml version="1.0"?>
-
-
 <biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="ejercicio_1_xsd.xsd">
   <libro idioma="es">

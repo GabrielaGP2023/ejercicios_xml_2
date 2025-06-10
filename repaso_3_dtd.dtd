@@ -1,0 +1,9 @@
+<!ELEMENT universidad (departamentos)>
+<!ELEMENT departamentos (departamento,areas)>
+<!ELEMENT departamento (#PCDATA)>
+<!ELEMENT areas (area+)>
+<!ELEMENT area (profesor*)>
+<!ATTLIST area nombre NMTOKEN #REQUIRED>
+<!ELEMENT profesor (nombre,num-empleado)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT num-empleado (#PCDATA)>

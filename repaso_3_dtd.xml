@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE universidad SYSTEM "repaso_3_dtd.dtd">
+<universidad>
+    <departamentos>
+        <departamento>Ciencias</departamento>
+        <areas>
+            <area nombre="Matemáticas">
+                <profesor>
+                    <nombre>Juan López</nombre>
+                    <num-empleado>123445</num-empleado>
+                </profesor>
+                <profesor>
+                    <nombre>Juan López</nombre>
+                    <num-empleado>123445</num-empleado>
+                </profesor>
+            </area>
+            <area nombre="Matemáticas">
+                <profesor>
+                    <nombre>Juan López</nombre>
+                    <num-empleado>123445</num-empleado>
+                </profesor>
+            </area>
+        </areas>
+    </departamentos>
+</universidad>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<universidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="repaso_3_xsd.xsd">
+    <departamentos>
+        <departamento>Ciencias</departamento>
+        <areas>
+            <area nombre="Matemáticas">
+                <profesor>
+                    <nombre>Juan López</nombre>
+                    <num-empleado>123445</num-empleado>
+                </profesor>
+                <profesor>
+                    <nombre>Juan López</nombre>
+                    <num-empleado>123445</num-empleado>
+                </profesor>
+            </area>
+            <area nombre="Matemáticas">
+                <profesor>
+                    <nombre>Juan López</nombre>
+                    <num-empleado>123445</num-empleado>
+                </profesor>
+            </area>
+        </areas>
+    </departamentos>
+</universidad>

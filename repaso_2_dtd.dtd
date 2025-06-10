@@ -1,0 +1,14 @@
+<!ELEMENT evento (chef-invitado,restaurante,chef-destacado,asistentes)>
+<!ATTLIST evento nombre CDATA #REQUIRED>
+<!ELEMENT chef-invitado (nombre,dni,menu-especial)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT menu-especial (entrante,plato-1,plato-2,postre)>
+<!ELEMENT entrante (#PCDATA)>
+<!ELEMENT plato-1 (#PCDATA)>
+<!ELEMENT plato-2 (#PCDATA)>
+<!ELEMENT postre (#PCDATA)>
+<!ELEMENT restaurante (nombre,direccion)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT chef-destacado (nombre,dni)>
+<!ELEMENT asistentes (#PCDATA)>

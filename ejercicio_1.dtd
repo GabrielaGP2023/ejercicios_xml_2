@@ -1,6 +1,5 @@
 <!ELEMENT biblioteca (libro+)>
 <!ELEMENT libro (titulo,autor,editorial,año)>
-<!ATTLIST libro idioma NMTOKEN #REQUIRED>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT autor (#PCDATA)>
 <!ELEMENT editorial (#PCDATA)>

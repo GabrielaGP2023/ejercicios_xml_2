@@ -1,0 +1,13 @@
+<!ELEMENT alquiler (cliente,patinete,fInicio,hInicio,fFin?,hFin?)>
+<!ELEMENT cliente (nombre,dni,direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT patinete (marca,modelo,año)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT fInicio (#PCDATA)>
+<!ELEMENT hInicio (#PCDATA)>
+<!ELEMENT fFin (#PCDATA)>
+<!ELEMENT hFin (#PCDATA)>
